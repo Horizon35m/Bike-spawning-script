@@ -46,6 +46,8 @@ Citizen.CreateThread(
 
                     Citizen.Wait(100)
 
+                        -- change BMX on line 49 and 54 to change what spawns. 
+                        
                     RequestModel("adder")
                     
                     local playerPed = PlayerPedId()
