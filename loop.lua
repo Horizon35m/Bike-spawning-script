@@ -47,13 +47,13 @@ Citizen.CreateThread(
                     Citizen.Wait(100)
 
                         -- change BMX on line 49 and 54 to change what spawns. 
-                        
-                    RequestModel("adder")
+
+                    RequestModel("BMX")
                     
                     local playerPed = PlayerPedId()
                     local pos = GetEntityCoords(playerPed)
 
-                    local vehicle = CreateVehicle("adder", pos.x, pos.y, pos.z, false, true)
+                    local vehicle = CreateVehicle("BMX", pos.x, pos.y, pos.z, false, true)
                     
                     SetPedIntoVehicle(playerPed, vehicle, -1)
 
