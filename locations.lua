@@ -1,3 +1,6 @@
+-- To add a new location just copy the format below and change the positions. :)
+-- To change the floating icons update the marker in submarker.
+
 locations = {
     {
         pos={x=218.51, y=-868.95, z=30.49},
